@@ -4,6 +4,8 @@
 name: Build and Test
 
 on:
+  workflow_dispatch:
+  
   push:
     branches: [ "master","dev" ]
   pull_request:
